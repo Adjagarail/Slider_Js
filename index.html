@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <title>Slider JavaScript</title>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="Css/style.css">
+      <script src="Js/Jquery.js"></script>
+  </head>
+  <body>
+    <div class="conteneur">
+      <div id="Gauche" class="fleche flecheGauche"></div>
+      <div id="slider">
+
+        <!-- Slide Un -->
+        <div class="slide slide_0">
+        <div class="slide-content">
+          <span>Blue Exorcist</span>
+        </div>
+        </div>
+
+        <!-- Slide Deux -->
+        <div class="slide slide_1">
+        <div class="slide-content">
+          <span>Black Goku</span>
+        </div>
+        </div>
+
+        <!-- Slide Trois -->
+        <div class="slide slide_2">
+        <div class="slide-content">
+          <span>The Joker</span>
+        </div>
+        </div>
+
+        <!-- Slide Quatre -->
+        <div class="slide slide_3">
+        <div class="slide-content">
+          <span>FullMetal Alchemist</span>
+        </div>
+        </div>
+
+        <!-- Slide Cinq-->
+        <div class="slide slide_4">
+        <div class="slide-content">
+          <span>PS4 JoyStick</span>
+        </div>
+        </div>
+
+        <!-- Slide Six -->
+        <div class="slide slide_5">
+        <div class="slide-content">
+          <span>Planisphere</span>
+        </div>
+        </div>
+
+        <!-- Slide Sept -->
+        <div class="slide slide_6">
+        <div class="slide-content">
+          <span>Assassination Classroom</span>
+        </div>
+        </div>
+
+        <!-- Slide Sept -->
+        <div class="slide slide_7">
+        <div class="slide-content">
+          <span>The Sharingan</span>
+        </div>
+        </div>
+
+        <!-- Slide Sept -->
+        <div class="slide slide_8">
+        <div class="slide-content">
+          <span>Freezer</span>
+        </div>
+        </div>
+
+        <!-- Slide Huit -->
+        <div class="slide slide_9">
+        <div class="slide-content">
+          <span>L'Attaque des Titans</span>
+        </div>
+        </div>
+
+        <!-- Slide Neuf -->
+        <div class="slide slide_10">
+        <div class="slide-content">
+          <span>Killer Bee</span>
+        </div>
+        </div>
+
+        <!-- Slide Dix -->
+        <div class="slide slide_11">
+        <div class="slide-content">
+          <span>R2D2</span>
+        </div>
+        </div>
+
+        <!-- Slide Onze -->
+        <div class="slide slide_12">
+        <div class="slide-content">
+          <span>Vegeta</span>
+        </div>
+        </div>
+
+
+      <div id="Droite" class="fleche flecheDroite"></div>
+      </div>
+      </div>
+
+      <!-- Javascript normal -->
+    <!--
+      <script type="text/javascript">
+            make_slider = document.querySelectorAll(".slide"),
+            flecheDroite = document.querySelector('#Droite'),
+            flecheGauche = document.querySelector('#Gauche'),
+            current = 0;
+
+          function reset() {
+            for (i = 0; i < make_slider.length; i++) {
+              make_slider[i].style.display = 'none';
+            }
+          }
+          function start_slide() {
+            reset();
+            make_slider[0].style.display = 'block';
+          }
+
+
+          function slide_gauche() {
+            reset();
+            make_slider[current - 1].style.display = 'block';
+            current--;
+          }
+          function slide_droite() {
+            reset();
+            make_slider[current + 1].style.display = 'block';
+            current++;
+          }
+
+          flecheGauche.addEventListener('click', function () {
+            if (current === 0) {
+              current = make_slider.length;
+            }
+            slide_gauche();
+          })
+
+          flecheDroite.addEventListener('click', function () {
+            if (current === make_slider.length - 1) {
+              current = -1
+            }
+            slide_droite();
+          });
+
+          start_slide();
+      </script>
+    -->
+    
+      <!--Avec Jquery-->
+      
+      <script type="text/javascript">
+          $(function()
+          {
+            var currentSlide = 1;
+            var $slide = ;
+          });
+      </script>
+  </body>
+</html>

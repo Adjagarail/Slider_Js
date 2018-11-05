@@ -1,0 +1,147 @@
+body, #slider, .conteneur, .slide-content
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 100%;
+    height: 770px;
+    overflow: hidden; 
+}
+.conteneur
+{
+    position: relative;
+}
+.slide
+{
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slide-content
+{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+}
+.slide_0
+{
+ background-image: url('../Images/0.jpg');
+ width: 100%;
+ height: 768px;
+
+}
+.slide_1
+{
+ background-image: url('../Images/1.png');
+ width: 100%;
+ height: 768px;
+
+}
+.slide_2
+{
+ background-image: url('../Images/9.jpg');
+ width: 100%;
+ height: 768px;
+
+}
+.slide_3
+{
+ background-image: url('../Images/3.jpg');
+ width: 100%;
+ height: 768px;
+
+}
+.slide_4
+{
+ background-image: url('../Images/6.jpg');
+ width: 100%;
+ height: 768px;
+
+}
+.slide_5
+{
+ background-image: url('../Images/5.jpg');
+ width: 100%;
+ height: 768px;
+
+}
+.slide_6
+{
+ background-image: url('../Images/10.jpg');
+ width: 100%;
+ height: 768px;
+
+}
+.slide_7
+{
+ background-image: url('../Images/11.jpg');
+ width: 100%;
+ height: 768px;
+
+}
+.slide_8
+{
+ background-image: url('../Images/12.png');
+ width: 100%;
+ height: 768px;
+
+}
+.slide_9
+{
+ background-image: url('../Images/8.jpg');
+ width: 100%;
+ height: 768px;
+
+}
+.slide_10
+{
+ background-image: url('../Images/7.jpg');
+ width: 100%;
+ height: 768px;
+
+}
+.slide_11
+{
+ background-image: url('../Images/2.jpg');
+ width: 100%;
+ height: 768px;
+
+}
+.slide_12
+{
+ background-image: url('../Images/4.png');
+ width: 100%;
+ height: 768px;
+
+}
+.slide-content span
+{
+    font-size: 85px;
+    color: #ff0069;
+}
+.fleche
+{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -3%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+#Gauche
+{
+    border-width: 30px 40px 30px 0;
+    border-color: transparent #fff transparent transparent;
+    left:0;
+    margin-left: 30px ;
+}
+#Droite
+{
+    border-width: 30px 0 30px 40px;
+    border-color: transparent transparent transparent  #fff;
+    right: 0;
+    margin-right: 30px;
+}
